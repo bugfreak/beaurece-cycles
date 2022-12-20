@@ -97,6 +97,14 @@ a {
   color: #D5EEBB;
 }
 
+.credits {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  line-height: 2;
+}
+
  .top-container {
    background-color: #7FC8A9;
    position: relative;
@@ -112,15 +120,19 @@ a {
    margin: 0;
    padding: 20px 0 20px;
  }
-
+ .credit-container {
+   background-color: #7FC8A9;
+   margin: 0;
+   padding: 20px 0 20px;
+ }
  .activity-row {
-   margin: 100px auto 100px auto;
+   margin: 150px auto;
    text-align: left;
    width: 50%;
  }
 
  .skill-row {
-   margin: 100px auto 100px auto;
+   margin: 150px auto;
    text-align: left;
    width: 50%;
  }
@@ -130,6 +142,18 @@ a {
 }
 
  /*PIX-Styling*/
+.kids-mtb-pic {
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+}
+
+.grown-up-pic {
+  float: right;
+  margin-left: 30px;
+  width: 200px;
+}
+
  .skill-row-pic23 {
    float: left;
    margin-right: 30px;
